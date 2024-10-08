@@ -1,5 +1,5 @@
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 h1,
@@ -8,10 +8,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family:fantasy, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .small {
   font-weight: 300;
   font-style: italic;
+}
+
+.submit-button {
+  background-color: rgb(118, 35, 196);
+  border-color: rgb(118, 35, 196);
+}
+
+.submit-button:hover {
+  background-color: black;
+  border-color: black;
 }
